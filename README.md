@@ -8,7 +8,7 @@ Welcome to the Tic-Tac-Toe Game! This is a simple web-based implementation of th
 
 <img width="300" alt="gamecreationscreen" src="https://github.com/ecehzrc/TicTAcToe/assets/119535398/04024b06-f69e-43f3-9e6f-3890624c31cb">
 <img width="300" alt="grid _and_background_setting_screen" src="https://github.com/ecehzrc/TicTAcToe/assets/119535398/7c79b766-b555-494c-ac9b-af475c617633">
-<img width="280" alt="game_screen" src="https://github.com/ecehzrc/TicTAcToe/assets/119535398/5e1d7fbc-1133-4a26-835c-0c9af4f8c9b6">
+<img width="272" alt="game_screen" src="https://github.com/ecehzrc/TicTAcToe/assets/119535398/5e1d7fbc-1133-4a26-835c-0c9af4f8c9b6">
 
 
 ## Features
@@ -18,7 +18,6 @@ Welcome to the Tic-Tac-Toe Game! This is a simple web-based implementation of th
 - Dynamic game grid size selection for an enhanced gaming experience.
 - User-friendly interface with visually appealing game board and controls.
 - Real-time updates on game results and winner announcements.
-- Various grid sizes to choose from beyond standard 3x3
 
 
 
