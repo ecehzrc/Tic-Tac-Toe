@@ -1,12 +1,9 @@
 # Tic-Tac-Toe Game
 
-Welcome to the Tic-Tac-Toe Game! This is a simple web-based implementation of the classic Tic-Tac-Toe game, where you can play against the computer. This game is a Tic-Tac-Toe game consisting of 3 screens in total. These screens:
--Game creation screen
--Game list screen
--Game Screen
+Welcome to the Tic-Tac-Toe Game! This is a simple web-based implementation of the classic Tic-Tac-Toe game, where you can play against the computer. This game is a Tic-Tac-Toe game consisting of 3 screens in total:  1)Game Creation Screen   2)Game List Screen    3)Game Screen
 
-<img width="357" alt="game_screen" src="https://github.com/ecehzrc/TicTAcToe/assets/119535398/5e1d7fbc-1133-4a26-835c-0c9af4f8c9b6">
-<img width="454" alt="gamecreationscreen" src="https://github.com/ecehzrc/TicTAcToe/assets/119535398/04024b06-f69e-43f3-9e6f-3890624c31cb">
+<img width="440" alt="gamecreationscreen" src="https://github.com/ecehzrc/TicTAcToe/assets/119535398/04024b06-f69e-43f3-9e6f-3890624c31cb">
+<img width="440" alt="game_screen" src="https://github.com/ecehzrc/TicTAcToe/assets/119535398/5e1d7fbc-1133-4a26-835c-0c9af4f8c9b6">
 <img width="440" alt="grid _and_background_setting_screen" src="https://github.com/ecehzrc/TicTAcToe/assets/119535398/7c79b766-b555-494c-ac9b-af475c617633">
 
 ## Features
