@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: rgb(81, 43, 251);
+    color: rgb(206, 234, 255);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav button {
+    font-size: 1em;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #createGameScreen,
+  #listGamesScreen,
+  #gameScreen,
+  #nameEntryScreen {
+    display: none;
+  }
+  
+  #board {
+    display: grid;
+    margin-top: 40px;
+    grid-gap: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 307px;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #333;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0;
+  }
+  
+  .cell:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .gameListItem {
+    background-color: #f0f0f0;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  
+  #gameHistory {
+    margin-top: 20px;
+  }
+  
+  #gameHistory ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #gameHistory li {
+    margin-bottom: 5px;
+  }
+  
+  #nameEntryScreen {
+    display: block;
+  }
+  
+  #nameEntryForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #nameInput,
+  #gameNameInput {
+    margin-bottom: 10px;
+  }
+  
+  #createGameForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #createGameForm label {
+    margin-bottom: 10px;
+  }
+  
+  #createGameForm button {
+    margin-top: 15px;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #winnerDisplay {
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  #nameEntryForm button,
+  #gameScreen button,
+  #createGameScreen button,
+  nav button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #nameEntryForm button:hover,
+  #gameScreen button:hover,
+  #createGameScreen button:hover,
+  nav button:hover {
+    background-color: #2980b9;
+  }
+  

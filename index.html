@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic-Tac-Toe Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Tic-Tac-Toe Game</h1>
+  </header>
+
+  <nav>
+    <button onclick="goToCreateGame()">Create Game</button>
+    <button onclick="goToListGames()">List Games</button>
+  </nav>
+
+  <main>
+    <div id="nameEntryScreen">
+      <h2>Welcome to Tic-Tac-Toe!</h2>
+
+      <form id="nameEntryForm" onsubmit="return submitName()">
+        <img src="xox.png" alt="Game Image">
+        <input type="text" id="nameInput" placeholder="Enter your name" required>
+        <input type="text" id="gameNameInput" placeholder="Enter game name" required>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <div id="createGameScreen">
+      <h2>Create a New Game</h2>
+      <form id="createGameForm">
+        <label for="gridSizeInput">Choose Grid Size:</label>
+        <input type="number" id="gridSizeInput" value="3" min="3" max="5">
+        <label for="backgroundColorInput">Choose Background Color:</label>
+        <input type="color" id="backgroundColorInput" value="#ffffff">
+        <button type="button" onclick="startNewGame()">Start New Game</button>
+      </form>
+    </div>
+
+    <div id="listGamesScreen">
+      <h2>List of Games</h2>
+      <div id="gameHistory">
+        <ul id="gameList"></ul>
+      </div>
+    </div>
+
+    <div id="gameScreen">
+      <h2>Let's Start the Game!</h2>
+      <button onclick="goToCreateGame()">Create New Game</button>
+      <button onclick="backToCreateGame()">Back to Create Game</button>
+      <div id="board"></div>
+      <div id="winnerDisplay"></div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
