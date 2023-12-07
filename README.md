@@ -17,10 +17,6 @@ To play the game, follow these steps:
 3. Customize the grid size and background color before starting the game.
 4. Make your moves on the game board and try to win against the computer!
 
-## Screenshots
-
-Include screenshots of the game to showcase its appearance and features.
-
 ## Technologies Used
 
 - HTML
